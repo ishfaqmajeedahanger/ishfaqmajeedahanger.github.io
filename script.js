@@ -4,7 +4,7 @@ const sideMenu = document.getElementById("sideMenu");
 
 const moon = document.getElementById("moon");
 
-/* OPEN MENU */
+/* MENU */
 
 menuIcon.onclick = function () {
 
@@ -22,15 +22,23 @@ menuIcon.onclick = function () {
 
 };
 
+/* CLOSE MENU WHEN LINK CLICKED */
+
+const links = document.querySelectorAll(".side-menu a");
+
+links.forEach(link => {
+
+    link.onclick = function () {
+
+        sideMenu.style.left = "-250px";
+
+    };
+
+});
+
 /* LIGHT MODE */
 
 moon.onclick = function () {
-
-    document.body.classList.toggle("light-mode");
-
-};const button = document.getElementById("theme-button");
-
-button.onclick = function () {
 
     document.body.classList.toggle("light-mode");
 
