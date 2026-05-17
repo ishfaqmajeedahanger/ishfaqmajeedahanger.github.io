@@ -255,3 +255,46 @@ h2 {
     color: #60a5fa;
 
 }
+.light-mode {
+
+    background-color: white;
+
+    color: black;
+
+}
+
+.light-mode h1 {
+
+    color: black;
+
+}
+
+.light-mode .subtitle {
+
+    color: #333;
+
+}
+
+.light-mode .intro {
+
+    color: #222;
+
+}
+
+.light-mode .side-menu {
+
+    background: #f1f1f1;
+
+}
+
+.light-mode .side-menu a {
+
+    color: black;
+
+}
+
+.light-mode .socials a {
+
+    color: black;
+
+}
