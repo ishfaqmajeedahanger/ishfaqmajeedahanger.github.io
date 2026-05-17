@@ -233,3 +233,28 @@ h2 {
     color: #e5e7eb;
 
 }
+.socials {
+
+    text-align: center;
+
+    margin-top: 60px;
+
+}
+
+.socials a {
+
+    color: white;
+
+    font-size: 42px;
+
+    margin: 20px;
+
+    transition: 0.3s;
+
+}
+
+.socials a:hover {
+
+    color: #60a5fa;
+
+}
